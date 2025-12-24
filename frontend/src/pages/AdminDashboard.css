@@ -1,0 +1,178 @@
+.admin-dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(120deg, #0a0f29, #11183a);
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+/* HEADER */
+.admin-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.admin-header p {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+/* CARDS GRID */
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.admin-card {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.admin-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+.admin-card h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.stat-number {
+  font-size: 34px;
+  font-weight: bold;
+  color: #f0b90b;
+}
+
+/* ACTION BUTTONS */
+.admin-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.admin-btn {
+  padding: 12px 22px;
+  font-size: 15px;
+  background: #f0b90b;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.admin-btn:hover {
+  background: #ffcc30;
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .admin-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .admin-cards {
+    grid-template-columns: 1fr;
+  }
+}
+.section-title {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #f0b90b;
+}
+
+.crew-form {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.crew-form input,
+.crew-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+.crew-form input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.crew-form button {
+  grid-column: span 3;
+  padding: 12px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.form-message {
+  margin-bottom: 10px;
+  color: #f0b90b;
+  font-weight: 500;
+}
+.crew-table {
+  width: 100%;
+  margin-top: 18px;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.05);
+}
+
+.crew-table th,
+.crew-table td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.crew-table button {
+  margin-right: 8px;
+  background: #f0b90b;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* MODAL */
+.modal {
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  top: 0; left: 0; 
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  width: 420px;
+  background: #15203d;
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  gap: 12px;
+}

@@ -1,0 +1,73 @@
+.flights-page {
+  padding: 140px 80px 60px;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.flights-page h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+.flights-table-container {
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.flights-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flights-table thead {
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.flights-table th {
+  padding: 16px;
+  text-align: left;
+  font-size: 13px;
+  color: #cbd5f5;
+  font-weight: 600;
+}
+
+.flights-table td {
+  padding: 16px;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+  font-size: 14px;
+}
+
+.flights-table tr:hover {
+  background: rgba(148, 163, 184, 0.05);
+}
+
+.price {
+  font-weight: 600;
+  color: #facc15;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.available {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.status.full {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}

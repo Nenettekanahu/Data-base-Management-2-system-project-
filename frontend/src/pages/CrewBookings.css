@@ -1,0 +1,47 @@
+.crewbookings-page {
+  padding: 40px;
+}
+
+.crewbookings-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.crewbookings-table th {
+  background: #005bbb;
+  color: white;
+  padding: 12px;
+}
+
+.crewbookings-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.edit-btn {
+  background: orange;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: red;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff6e6;
+  border-radius: 8px;
+}

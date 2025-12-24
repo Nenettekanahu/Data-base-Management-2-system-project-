@@ -1,0 +1,42 @@
+.crew-payments {
+  background: #060b21;
+  min-height: 92vh;
+  padding: 60px 120px;
+  color: white;
+}
+
+.crew-payments h1 {
+  font-size: 34px;
+  background: linear-gradient(90deg, #ffbd59, #ffd987);
+  /*-webkit-background-clip: text;*/
+  -webkit-text-fill-color: transparent;
+}
+
+.crew-payments table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  color: white;
+  font-size: 15px;
+}
+
+.crew-payments th {
+  text-align: left;
+  padding: 14px;
+  background: #0e1830;
+  font-weight: 600;
+}
+
+.crew-payments td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.crew-payments select {
+  padding: 6px;
+  border-radius: 6px;
+  background: #0e1830;
+  color: white;
+  border: 1px solid #253556;
+  cursor: pointer;
+}

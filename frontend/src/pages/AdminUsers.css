@@ -1,0 +1,41 @@
+.admin-users-page {
+  background: #060b21;
+  min-height: 92vh;
+  padding: 60px 120px;
+  color: white;
+}
+
+.admin-users-page h1 {
+  font-size: 34px;
+  background: linear-gradient(90deg, #ffbd59, #ffd987);
+  /*-webkit-background-clip: text;*/
+  -webkit-text-fill-color: transparent;
+}
+
+.admin-users-page table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  color: white;
+}
+
+.admin-users-page th {
+  text-align: left;
+  padding: 14px;
+  background: #0e1830;
+  font-weight: bold;
+}
+
+.admin-users-page td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.admin-users-page select {
+  padding: 6px;
+  background: #0e1830;
+  color: white;
+  border: 1px solid #324a75;
+  border-radius: 6px;
+  cursor: pointer;
+}
